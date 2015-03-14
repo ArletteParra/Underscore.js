@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo Underscore.js</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
+<body>
+	<script>
+		var colores = ["rojo","azul","amarillo","blanco","negro"];//Tenemos un arreglo de 5 colores
+		var elemento =_.first(colores);//_.first devuelve el primer color que corresponde al color rojo
+		console.log(elemento);
+	</script>
+	<script>
+		var colores = ["rojo","azul","amarillo","blanco","negro"];//Tenemos un arreglo de 5 colores
+		var elemento =_.initial(colores);//_.initial devuelve todos los colores con excepcion del ultimo
+		console.log(elemento);
+	</script>
+	<script>
+		var colores = ["rojo","azul","amarillo","blanco","negro"];//Tenemos un arreglo de 5 colores
+		var elemento =_.last(colores);//_.last devuelve el  ultimo color que corresponde al color negro
+		console.log(elemento);
+	</script>
+</body>
+</html>
